@@ -42,10 +42,12 @@ My little experience is my diploma projects in courses and tests projects.
     * Information systems and technologies (software engineer).
 ### Courses:
 * Glo academy/Layout Academy (August 2019 — October 2019).
-    * JavaScript. [diplom project](https://github.com/barclays13/diplom_project)
+    * JavaScript. 
+    * [link to diplom project](https://github.com/barclays13/diplom_project)
     
 * Glo academy/Layout Academy (October 2019 — December 2019).
-    * Redux & React-redux. [diplom project](https://github.com/barclays13/diplom_project_react)
+    * Redux & React-redux. 
+    * [link to diplom project](https://github.com/barclays13/diplom_project_react)
 
 # Languages
 ---
