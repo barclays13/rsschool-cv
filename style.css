@@ -1,0 +1,72 @@
+
+body { background-color: #eee; }
+
+.container {
+    margin: 30px auto;
+    display: flex;
+    width: 1024px;
+    height: 100%;
+    font: 400 16px 'Cabin', sans-serif;
+    background-color: #fff;
+    box-shadow: 20px 20px 20px rgb(0,0,0,.2);
+}
+
+.aside {
+    width: 40%;
+}
+
+.photo {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.name {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.profession {
+    font-weight: 12;
+    text-align: center;
+}
+
+.content {
+    color: #fff;
+    background-color: #6d9824;
+}
+
+.content__name {
+    margin-bottom: 0;
+    margin-left: 10%;
+}
+
+.content__line {
+    width: 80%;
+    height: 5px;
+    margin: 0 10%;
+    background-color: #fff;
+}
+
+.contacts__wrappes {
+    margin-top: 10px;
+    list-style: none;
+}
+
+.li {
+    display: flex!important;
+}
+
+.contacts__wrappes > li > a {
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+}
+
+.contacts__wrappes > li > a:hover {
+    color: #fff;
+    font-style: italic;
+}
+
+.main {
+    width: 60%;
+}
