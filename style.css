@@ -4,6 +4,7 @@ body { background-color: #eee; }
 .container {
     margin: 30px auto;
     display: flex;
+    flex-wrap: wrap;
     width: 1024px;
     height: 100%;
     font: 400 16px 'Cabin', sans-serif;
@@ -151,4 +152,33 @@ ul {
 
 .code-example__task {
     background: #7ea04341;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #000;
+}
+.my-github {
+    display: flex;
+    align-items: center;
+}
+
+.my-github > a {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.logo-gh {
+    height: 50px;
+    width: 50px;
+}
+
+.logo-rss {
+    height: 50px;
+    width: 100%;
+    margin-right: 5%;
 }
