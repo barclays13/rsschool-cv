@@ -1,0 +1,184 @@
+
+body { background-color: #eee; }
+
+.container {
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1024px;
+    height: 100%;
+    font: 400 16px 'Cabin', sans-serif;
+    background-color: #fff;
+    box-shadow: 20px 20px 20px rgb(0,0,0,.2);
+}
+
+.aside {
+    width: 40%;
+}
+
+.photo {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.name {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.profession {
+    font-weight: 12;
+    text-align: center;
+}
+
+.content {
+    color: #000;
+    background-color: #7ea043;
+}
+
+.content__name {
+    padding-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    color: #fff;
+}
+
+.content__line {
+    width: 80%;
+    height: 5px;
+    margin: 0 10%;
+    background-color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+.contacts > ul > li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contacts > ul > li > a {
+    padding-left: 5%;
+}
+
+.contacts__list > li > .icon {
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+}
+
+.contacts__list > li > a {
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+}
+
+.contacts__list > li > a:hover {
+    color: #fff;
+    font-style: italic;
+}
+
+.skills__list > li {
+    display: flex;
+    align-items: center;
+}
+
+.skills__list > li:hover {
+    opacity: 0.9;
+    box-shadow: -5px 0 0 rgb(0,0,0,.2);
+}
+
+.skills_name {
+    margin: 1% 3%;
+    font-size: 24px;
+}
+
+.languages__list {
+    margin-bottom: 0;
+    padding-bottom: 10%;
+    list-style: disc;
+}
+
+.languages__name {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main {
+    width: 60%;
+    font-size: 20px;
+}
+
+.main__name {
+    text-align: center;
+    border-bottom: 5px solid #7ea043;
+    text-transform: uppercase;
+}
+
+.main__text {
+    text-align: justify;
+}
+
+.glo {
+    text-decoration: none;
+    color: #7ea043;
+}
+
+.main > section {
+    padding: 2% 5% 0 5%;
+}
+
+.about-me {
+    padding-top: 10%;
+}
+
+.courses > ul {
+    line-height: 10px;
+    list-style: disc;
+}
+
+.courses > ul > li {
+    padding-left: 5%;
+}
+
+.code-example__task {
+    background: #7ea04341;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #000;
+}
+.my-github {
+    display: flex;
+    align-items: center;
+}
+
+.my-github > a {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.logo-gh {
+    height: 50px;
+    width: 50px;
+}
+
+.logo-rss {
+    height: 50px;
+    width: 100%;
+    margin-right: 5%;
+}
