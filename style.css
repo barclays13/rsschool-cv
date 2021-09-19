@@ -1,14 +1,9 @@
 
-body { background-color: #eee; }
+body { background: #eee; }
 
 .container {
-    margin: 30px auto;
-    display: flex;
-    flex-wrap: wrap;
-    width: 1024px;
-    height: 100%;
     font: 400 16px 'Cabin', sans-serif;
-    background-color: #fff;
+    background: #fff;
     box-shadow: 20px 20px 20px rgb(0,0,0,.2);
 }
 
@@ -37,7 +32,7 @@ body { background-color: #eee; }
 
 .content {
     color: #000;
-    background-color: #7ea043;
+    background: #7ea043;
 }
 
 .content__name {
@@ -51,7 +46,7 @@ body { background-color: #eee; }
     width: 80%;
     height: 5px;
     margin: 0 10%;
-    background-color: #000;
+    background: #000;
 }
 
 ul {
@@ -76,7 +71,7 @@ ul {
 }
 
 .contacts__list > li > .icon {
-    background-color: #fff;
+    background: #fff;
     border-radius: 100%;
 }
 
@@ -165,16 +160,6 @@ ul {
     margin-bottom: 0;    
 }
 
-/* code {
-    font-size: 12px;
-} */
-
-@media screen and (max-width: 1000px) {
-    .js {
-        font-size: 12px!important; 
-    }
-}
-
 footer {
     height: 100px;
     width: 100%;
@@ -191,6 +176,7 @@ footer {
 
 .my-github > a {
     margin-left: 10px;
+    color: #7ea043;
     text-decoration: none;
 }
 
@@ -203,4 +189,16 @@ footer {
     height: 50px;
     width: 100%;
     margin-right: 5%;
+}
+
+@media (max-width: 990px) {
+    .js {
+        font-size: 12px; 
+    }
+}
+
+@media (max-width: 570px) {
+    .js {
+        font-size: 10px; 
+    }
 }
