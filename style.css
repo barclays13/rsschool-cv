@@ -1,5 +1,8 @@
 
-body { background: #eee; }
+body { 
+    width: 100%;
+    background: #eee; 
+}
 
 .container {
     font: 400 16px 'Cabin', sans-serif;
@@ -140,6 +143,15 @@ ul {
 .glo {
     text-decoration: none;
     color: #7ea043;
+}
+
+.glo-dp {
+    width: 100%;
+    opacity: 0.5;
+}
+
+.glo-dp:hover {
+    opacity: 1;
 }
 
 .main > section {
