@@ -1,19 +1,21 @@
 
-body { background-color: #eee; }
+body { 
+    width: 100%;
+    background: #eee; 
+}
 
 .container {
-    margin: 30px auto;
-    display: flex;
-    flex-wrap: wrap;
-    width: 1024px;
-    height: 100%;
     font: 400 16px 'Cabin', sans-serif;
-    background-color: #fff;
+    background: #fff;
     box-shadow: 20px 20px 20px rgb(0,0,0,.2);
 }
 
-.aside {
-    width: 40%;
+.navbar {
+    position: fixed;
+}
+
+.navbar-margin-b {
+    margin-bottom: 0;
 }
 
 .photo {
@@ -33,11 +35,11 @@ body { background-color: #eee; }
 
 .content {
     color: #000;
-    background-color: #7ea043;
+    background: #7ea043;
 }
 
 .content__name {
-    padding-top: 5%;
+    padding-top: 2%;
     margin-bottom: 2%;
     margin-left: 10%;
     color: #fff;
@@ -47,25 +49,32 @@ body { background-color: #eee; }
     width: 80%;
     height: 5px;
     margin: 0 10%;
-    background-color: #000;
+    background: #000;
 }
 
 ul {
+    padding-left: 0!important;
     list-style: none;
 }
 
-.contacts > ul > li {
+#contacts > ul > li {
     margin: 10px 0;
     display: flex;
     align-items: center;
 }
 
-.contacts > ul > li > a {
+#contacts > ul > li > a {
     padding-left: 5%;
 }
 
+.contacts__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .contacts__list > li > .icon {
-    background-color: #fff;
+    background: #fff;
     border-radius: 100%;
 }
 
@@ -85,25 +94,29 @@ ul {
     font-style: italic;
 }
 
-.skills__list > li {
+.skills__list {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    margin-top: 5%;
 }
 
-.skills__list > li:hover {
-    opacity: 0.9;
-    box-shadow: -5px 0 0 rgb(0,0,0,.2);
+.skills__list > li {
+    display: flex;
 }
 
 .skills_name {
-    margin: 1% 3%;
+    margin-left: 2%;
     font-size: 24px;
 }
 
 .languages__list {
-    margin-bottom: 0;
+    margin-top: 5%;
     padding-bottom: 10%;
-    list-style: disc;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
 }
 
 .languages__name {
@@ -114,7 +127,6 @@ ul {
 }
 
 .main {
-    width: 60%;
     font-size: 20px;
 }
 
@@ -133,25 +145,31 @@ ul {
     color: #7ea043;
 }
 
+.glo-dp {
+    width: 100%;
+    opacity: 0.5;
+}
+
+.glo-dp:hover {
+    opacity: 1;
+}
+
 .main > section {
     padding: 2% 5% 0 5%;
 }
 
-.about-me {
+#about-me {
     padding-top: 10%;
 }
 
-.courses > ul {
-    line-height: 10px;
+#courses > ul {
+
     list-style: disc;
 }
 
-.courses > ul > li {
-    padding-left: 5%;
-}
-
-.code-example__task {
-    background: #7ea04341;
+#courses > ul > li {
+    padding-top: 2%;
+    margin-bottom: 0;    
 }
 
 footer {
@@ -162,6 +180,7 @@ footer {
     align-items: center;
     color: #000;
 }
+
 .my-github {
     display: flex;
     align-items: center;
@@ -169,6 +188,7 @@ footer {
 
 .my-github > a {
     margin-left: 10px;
+    color: #7ea043;
     text-decoration: none;
 }
 
@@ -181,4 +201,16 @@ footer {
     height: 50px;
     width: 100%;
     margin-right: 5%;
+}
+
+@media (max-width: 990px) {
+    .js {
+        font-size: 12px; 
+    }
+}
+
+@media (max-width: 570px) {
+    .js {
+        font-size: 10px; 
+    }
 }
